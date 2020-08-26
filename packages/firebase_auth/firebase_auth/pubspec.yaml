@@ -8,15 +8,14 @@ version: 0.18.0+1
 flutter:
   plugin:
     platforms:
-      android:
-        package: io.flutter.plugins.firebase.auth
-        pluginClass: FlutterFirebaseAuthPlugin
-      ios:
-        pluginClass: FLTFirebaseAuthPlugin
-      macos:
-        pluginClass: FLTFirebaseAuthPlugin
-      web:
-        default_package: firebase_auth_web
+        android:
+          default_package: firebase_rest_auth
+        ios:
+          pluginClass: FLTFirebaseAuthPlugin
+        macos:
+          pluginClass: FLTFirebaseAuthPlugin
+        web:
+          default_package: firebase_auth_web
 
 dependencies:
   meta: ^1.0.4
