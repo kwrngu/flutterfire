@@ -24,7 +24,7 @@ dependencies:
   firebase_auth_platform_interface: ^2.0.1
   firebase_auth_web: ^0.3.0+1
   firebase_rest_auth:
-    git: git@github.com:kwrngu/firebase_rest_auth.git
+    git: git@github.com:kwrngu/firebase-rest-auth.git
 
   flutter:
     sdk: flutter
