@@ -30,7 +30,7 @@ class RecaptchaVerifier {
   factory RecaptchaVerifier(
           {String container, Map<String, dynamic> parameters}) =>
       RecaptchaVerifier._(
-          _factory.delegateFor(container: container, parameters: parameters));
+          _factory.delegateFor(container: container));
 
   /// Returns the underlying factory delegate instance.
   @protected
